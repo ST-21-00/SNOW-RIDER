@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>遊戲合集</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .game-list {
+            display: flex;
+            gap: 20px;
+        }
+        .game-card {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .game-card:hover {
+            background-color: #b2ebf2;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<h1>選擇你的遊戲</h1>
+<div class="game-list">
+    <div class="game-card">
+        <a href="snow-rider.html">🏂 Snow Rider 3D</a>
+    </div>
+    <div class="game-card">
+        <a href="slope.html">🎢 Slope</a>
+    </div>
+</div>
+
+</body>
+</html>
